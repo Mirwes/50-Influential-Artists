@@ -1,14 +1,20 @@
 .container{
-    border: 10px solid red;
     width: 100%;
     height: 100%;
+    background: #F0EBEB;
 }
 
+
+
 .title-container img{
-    width: 99%;
+    width: 99.99%;
     height: 97%;
     padding: 2px;
 }
+
+.title-container img:hover{
+    opacity: 80%;
+  }
 
 .title-container .top-section{
     display: flex;
@@ -33,32 +39,44 @@
     width: 80px;
     text-decoration: none;
 }
+.title-container .top-section p a:hover{
+    background: @sandy-beach;
+    color: dimgray;
+    border: 3px dashed white;
+}
 
 .artists-container{
     .flex-layout(center, center);
-    width: 99%;
+    align-items: flex-start;
+    width: 95%;
 
     img{
-        width: 50;
+        width: 500px;
         height: 100%;
         padding: 10px;
         margin: 10px;
+        border-radius: 20px; 
     } 
+    img:hover{
+        opacity: 80%;
+      }
+
     a{
        text-decoration: none;
        font-size: 1.8rem;
-       color: black;
+       color: @theme-color-1;
        display: flex;
        justify-content: center;
     }
     .bio{
        font-size: 1.0rem;
        padding: 10px;
-       margin: 10px;
-       width: 100%;
+       margin: 2px;
+       width: 85%;
        height: 100%;
+
        .flex-layout(center, center);
-       flex-wrap: wrap;
+       
     }
 
     }

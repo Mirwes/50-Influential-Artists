@@ -88,20 +88,30 @@ video {
 }
 .navbar nav {
   display: flex;
+  justify-content: center;
+  padding: 15px;
 }
-.navbar nav .a {
-  color: red;
-  background: red;
+.navbar nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  padding: 2px;
+}
+.navbar nav a:hover {
+  color: sandybrown;
 }
 .container {
-  border: 10px solid red;
   width: 100%;
   height: 100%;
+  background: #F0EBEB;
 }
 .title-container img {
-  width: 99%;
+  width: 99.99%;
   height: 97%;
   padding: 2px;
+}
+.title-container img:hover {
+  opacity: 80%;
 }
 .title-container .top-section {
   display: flex;
@@ -125,33 +135,42 @@ video {
   width: 80px;
   text-decoration: none;
 }
+.title-container .top-section p a:hover {
+  background: #FFEBCD;
+  color: dimgray;
+  border: 3px dashed white;
+}
 .artists-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 99%;
+  align-items: flex-start;
+  width: 95%;
 }
 .artists-container img {
-  width: 50;
+  width: 500px;
   height: 100%;
   padding: 10px;
   margin: 10px;
+  border-radius: 20px;
+}
+.artists-container img:hover {
+  opacity: 80%;
 }
 .artists-container a {
   text-decoration: none;
   font-size: 1.8rem;
-  color: black;
+  color: #355C7D;
   display: flex;
   justify-content: center;
 }
 .artists-container .bio {
   font-size: 1rem;
   padding: 10px;
-  margin: 10px;
-  width: 100%;
+  margin: 2px;
+  width: 85%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }

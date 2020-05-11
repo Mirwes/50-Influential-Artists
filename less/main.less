@@ -1,0 +1,83 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background: #F0EBEB;
+}
+
+
+
+.title-container img{
+    width: 99.99%;
+    height: 97%;
+    padding: 2px;
+}
+
+.title-container img:hover{
+    opacity: 80%;
+  }
+
+.title-container .top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 500px;
+}
+.title-container .top-section h1{
+    color: white;
+    font-size: 2.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+
+.title-container .top-section p a{
+    color: black;
+    background: white;
+    padding: 6px;
+    margin: 10px;
+    width: 80px;
+    text-decoration: none;
+}
+.title-container .top-section p a:hover{
+    background: @sandy-beach;
+    color: dimgray;
+    border: 3px dashed white;
+}
+
+.artists-container{
+    .flex-layout(center, center);
+    align-items: flex-start;
+    width: 95%;
+
+    img{
+        width: 500px;
+        height: 100%;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px; 
+    } 
+    img:hover{
+        opacity: 80%;
+      }
+
+    a{
+       text-decoration: none;
+       font-size: 1.8rem;
+       color: @theme-color-1;
+       display: flex;
+       justify-content: center;
+    }
+    .bio{
+       font-size: 1.0rem;
+       padding: 10px;
+       margin: 2px;
+       width: 85%;
+       height: 100%;
+
+       .flex-layout(center, center);
+       
+    }
+
+    }
+     

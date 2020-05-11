@@ -1,4 +1,176 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.navbar nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.navbar nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  padding: 2px;
+}
+.navbar nav a:hover {
+  color: sandybrown;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: #F0EBEB;
+}
+.title-container img {
+  width: 99.99%;
+  height: 97%;
+  padding: 2px;
+}
+.title-container img:hover {
+  opacity: 80%;
+}
+.title-container .top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 500px;
+}
+.title-container .top-section h1 {
+  color: white;
+  font-size: 2.2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px;
+}
+.title-container .top-section p a {
+  color: black;
+  background: white;
+  padding: 6px;
+  margin: 10px;
+  width: 80px;
+  text-decoration: none;
+}
+.title-container .top-section p a:hover {
+  background: #FFEBCD;
+  color: dimgray;
+  border: 3px dashed white;
+}
+.artists-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  width: 95%;
+}
+.artists-container img {
+  width: 500px;
+  height: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.artists-container img:hover {
+  opacity: 80%;
+}
+.artists-container a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #355C7D;
+  display: flex;
+  justify-content: center;
+}
+.artists-container .bio {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 2px;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
